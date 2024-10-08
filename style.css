@@ -134,7 +134,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('/images/bg.png') no-repeat center center/cover;
+    background: url('images/bg.png') no-repeat center center/cover;
     max-width: 100%;
     background-attachment: fixed;
     text-align: center;
