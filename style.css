@@ -430,7 +430,7 @@ nav .fa-solid{
     .about img {
         height: 160PX;
         margin-top: 25px;
-        margin-left: 32px;
+        margin-left: 29px;
     }
 
 
@@ -461,13 +461,13 @@ nav .fa-solid{
         width: 66%;
         padding: 8px;
         margin-bottom: 10px;
-        margin-left: 65px;
+        margin-left: 61px;
         font-size: 10px;
     }
 
     .contact button{
         width: 50%;
-        margin-left: 105px;
+        margin-left: 101px;
         font-size: 10px;
         padding: 8px 18px;
     }
