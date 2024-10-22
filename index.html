@@ -8,8 +8,14 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Files -->
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
@@ -18,19 +24,19 @@
 <body class="mainx">
     <!-- Header Section -->
     <header>
-    <div class="container">
-        <nav>
-            <!-- <h1 class="logo">Nitesh Kumar</h1> -->
-            <a href="#hero" class="logo">Nitesh Kumar</a>
+        <div class="container">
+            <nav>
+                <!-- <h1 class="logo">Nitesh Kumar</h1> -->
+                <a href="#hero" class="logo">Nitesh Kumar</a>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="ri-close-large-line"></i>
+                    <i class="fa-solid fa-xmark"></i>
                 </ul>
-            <i class="ri-menu-line"></i>
-        </nav>
-    </div>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+        </div>
     </header>
 
 
@@ -38,7 +44,8 @@
     <section id="hero" class="hero">
         <div class="container">
             <h2>Welcome to My Portfolio</h2>
-            <p> Explore my journey of crafting innovative solutions, blending design, strategy, and passion to bring ideas to life.</p>
+            <p> Explore my journey of crafting innovative solutions, blending design, strategy, and passion to bring
+                ideas to life.</p>
             <br>
             <a href="#portfolio" class="cta-button">View My Work</a>
         </div>
@@ -48,9 +55,14 @@
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm a passionate and curious developer who is always eager to learn new things. Though I'm new to the field, I thrive on mastering both front-end technologies like HTML, CSS, JavaScript, and React, and back-end tools such as Node.js and Express. I am a problem-solver at heart, and I enjoy collaborating with others to create seamless, engaging user experiences. <br><br>
+            <p>I'm a passionate and curious developer who is always eager to learn new things. Though I'm new to the
+                field, I thrive on mastering both front-end technologies like HTML, CSS, JavaScript, and React, and
+                back-end tools such as Node.js and Express. I am a problem-solver at heart, and I enjoy collaborating
+                with others to create seamless, engaging user experiences. <br><br>
 
-            My journey as a full-stack developer is just beginning, and I am excited to contribute to innovative projects while continuously expanding my expertise. I look forward to working on dynamic, user-friendly applications that make a real-world impact!</p>
+                My journey as a full-stack developer is just beginning, and I am excited to contribute to innovative
+                projects while continuously expanding my expertise. I look forward to working on dynamic, user-friendly
+                applications that make a real-world impact!</p>
             <img src="images/pfp.jpg" alt="Your Picture" class="profile-image">
         </div>
     </section>
@@ -63,41 +75,51 @@
                 <div class="portfolio-item">
                     <img src="images/magma-bg.png" alt="Project 1">
                     <h3>Magma</h3>
-                    <p>This project is a modern web page showcasing real estate technology through digital twin solutions. The site opens with
-                    a visually captivating video background and the headline "Experience Real Estate Agility," highlighting the innovative
-                    concept. The design is minimalist, with smooth transitions and a clear call to action. It also introduces the Digital
-                    Twin Token (DTT), a unique asset backed by property data, making it a cutting-edge Web3 solution for real estate.</p>
-                    <button onclick="window.open('https://niteshkumar0711.github.io/3-D-Website/', '_blank')">View site &#8594;</button>
+                    <p>This project is a modern web page showcasing real estate technology through digital twin
+                        solutions. The site opens with
+                        a visually captivating video background and the headline "Experience Real Estate Agility,"
+                        highlighting the innovative
+                        concept. The design is minimalist, with smooth transitions and a clear call to action. It also
+                        introduces the Digital
+                        Twin Token (DTT), a unique asset backed by property data, making it a cutting-edge Web3 solution
+                        for real estate.</p>
+                    <button onclick="window.open('https://niteshkumar0711.github.io/3-D-Website/', '_blank')">View site
+                        &#8594;</button>
                 </div>
-                
+
                 <div class="portfolio-item">
                     <img src="images/Weather.png" alt="Project 2">
                     <h3>Weather</h3>
-                    <p>A dynamic and responsive weather application built with HTML, CSS, and JavaScript, offering real-time weather updates
-                    through API integration. Key features include a sleek, user-friendly interface, search functionality for any location,
-                    and detailed weather data such as temperature, wind speed, and humidity. The app is optimized for performance across
-                    devices, with a clean design and intuitive visuals. This project highlights my expertise in front-end development, API
-                    handling, and crafting seamless user experiences.</p>
-                    <button onclick="window.open('https://niteshkumar0711.github.io/Weather/', '_blank')">View site &#8594;</button>
+                    <p>A dynamic and responsive weather application built with HTML, CSS, and JavaScript, offering
+                        real-time weather updates
+                        through API integration. Key features include a sleek, user-friendly interface, search
+                        functionality for any location,
+                        and detailed weather data such as temperature, wind speed, and humidity. The app is optimized
+                        for performance across
+                        devices, with a clean design and intuitive visuals. This project highlights my expertise in
+                        front-end development, API
+                        handling, and crafting seamless user experiences.</p>
+                    <button onclick="window.open('https://niteshkumar0711.github.io/Weather/', '_blank')">View site
+                        &#8594;</button>
                 </div>
                 <!-- Add more portfolio items as needed -->
             </div>
         </div>
     </section>
 
-    
+
     <!-- Contact Section -->
     <section class="contact" id="contact">
-    <h2>Contact Me</h2>
-    <form id="contactForm">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-    <!-- <iframe
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <!-- <iframe
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsdUneIVeOQGKnGbJy3CXS5rbYTRZIbB44a6p1OAhCVaiMng/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
-</section>
+    </section>
 
 
 
@@ -108,13 +130,16 @@
             <ul class="social-links">
                 <li>
                     <a href="https://www.linkedin.com/in/nitesh-kumar-61a076293/" target="_main">
-                        <img src="images/linkedin.png" alt="LinkedIn">LinkedIn</a></li>
+                        <img src="images/linkedin.png" alt="LinkedIn">LinkedIn</a>
+                </li>
                 <li>
                     <a href="https://www.github.com/niteshkumar0711" target="_main">
-                        <img src="images/github-mark-white.png" alt="GitHub">GitHub</a></li>
+                        <img src="images/github-mark-white.png" alt="GitHub">GitHub</a>
+                </li>
                 <li>
                     <a href="https://x.com/panther_lucifer" target="_main">
-                        <img src="images/twitter.png" alt="Twitter/X">Twitter</a></li>
+                        <img src="images/twitter.png" alt="Twitter/X">Twitter</a>
+                </li>
                 <!-- Add more social links as needed -->
             </ul>
         </div>
