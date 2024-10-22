@@ -183,7 +183,8 @@ nav ul li a:hover {
 }
 
 .about img {
-    max-width: 50%;
+    height: 350px;
+    margin: 50px 0 0 250px;
     border-radius: 10px;
     animation: slideInLeft 1s ease;
 }
@@ -420,24 +421,29 @@ footer .social-links a:hover {
         font-size: 8px;
         padding: 10px 15px;
     }
-    .about img{
-        margin-top: 60px;
-        margin-left: 70px;
+    .about img {
+        height: 160PX;
+        margin-top: 25px;
+        margin-left: 28px;
     }
 
 
 
+    .portfolio-item{
+        height: 80%;
 
+    }
     .portfolio-item>h3{
         font-size: 16px;
-        margin: 0 0;
+        margin: 0 0 0 7px;
         padding: 0 0;
     }
     .portfolio-item>p{
+        margin-top: 5px;
         font-size: 10px;
     }
     .portfolio button{
-        margin-left: 40px;
+        margin-left:40px;
         font-size: 8px;
         padding: 10px 15px;
     }
