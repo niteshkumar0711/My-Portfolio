@@ -82,6 +82,7 @@ header.scrolled {
 nav {
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     padding: 10px 20px;
     height: 60px;
@@ -310,8 +311,8 @@ nav ul li a:hover {
 .contact input, .contact textarea {
     padding: 12px;
     margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
+    border-radius: 10px;
+    border: 1px solid #b7b7b7;
     font-size: 16px;
     width: 100%;
     transition: box-shadow 0.3s ease;
@@ -403,45 +404,68 @@ footer .social-links a:hover {
     scrollbar-color: #007bff #f1f1f1;
 }
 
-/* ---------------------------------Mobile Menu--------------------------------- */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
+/* ---------------------------------Mobile Responsive--------------------------------- */
+
+@media only screen and (max-width: 600px){
+    a.logo{
+        font-size: 16px;
+    }
+    .container>h2{
+        font-size: 24px;
+    }
+    .container>p{
+        font-size: 13px;
+    }
+    .cta-button{
+        font-size: 8px;
+        padding: 10px 15px;
+    }
+    .about img{
+        margin-top: 60px;
+        margin-left: 70px;
     }
 
-    nav ul {
-        flex-direction: column;
-        background-color: #333;
-        position: fixed;
-        top: 60px;
-        right: -100%;
-        width: 200px;
-        height: 100vh;
-        transition: right 0.4s ease;
+
+
+
+    .portfolio-item>h3{
+        font-size: 16px;
+        margin: 0 0;
+        padding: 0 0;
+    }
+    .portfolio-item>p{
+        font-size: 10px;
+    }
+    .portfolio button{
+        margin-left: 40px;
+        font-size: 8px;
+        padding: 10px 15px;
     }
 
-    nav ul.open {
-        right: 0;
-    }
 
-    nav ul li {
-        margin: 20px 0;
-    }
-
-    nav ul li a {
+    .contact>h2{
         font-size: 20px;
     }
-
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-        color: #fff;
-        font-size: 24px;
-        margin-right: 20px;
-        animation: fadeIn 0.5s ease;
+    .contact input, .contact textarea{
+        width: 95%;
+        padding: 8px;
+        margin-bottom: 10px;
+        font-size: 10px;
     }
+    .contact button{
+        font-size: 10px;
+        padding: 8px 18px;
+    }
+
+
+    footer .social-links img{
+        width: 15px;
+        height: 15px;
+    }
+    footer .social-links a{
+        font-size: 8px;
+    }
+
 }
 
-.menu-toggle {
-    display: none;
-}
+
