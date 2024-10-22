@@ -50,3 +50,11 @@ document.getElementById('contactForm').addEventListener('submit', async function
         alert('There was an error sending your message. Please try again.');
     }
 });
+
+
+
+
+
+// ------------------------------Side Menu---------------------------------
+
+

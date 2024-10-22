@@ -43,9 +43,9 @@ header {
     z-index: 1000;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     animation: slideDown 0.6s ease-out;
 }
 
@@ -72,33 +72,35 @@ header.scrolled {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 2px;
-    margin-right: 550px;
+    /* margin-right: 550px; */
 }
 
 .logo:hover{
-    color:#f0f0f0
+    color:#aeadad
 }
 
 nav {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px 20px;
     height: 60px;
 }
 
-nav ul {
+/* nav ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-    animation: fadeIn 1s ease;
-}
+} */
 
 nav ul li {
-    margin-left: 10px;
+    display: inline-block;
+    list-style: none    ;
+    margin: 4px 7px;
     position: relative;
+    animation: fadeIn 1s ease;
 }
 
 nav ul li a {
@@ -106,7 +108,7 @@ nav ul li a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 4px 12px;
     transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -479,6 +481,41 @@ nav .fa-solid{
     }
     footer .social-links a{
         font-size: 8px;
+    }
+
+
+
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul{
+        background-color: #000000;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 150px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 3;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    ul .sidemenu{
+        margin: 0 0;
     }
 
 }

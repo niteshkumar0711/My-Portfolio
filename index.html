@@ -28,13 +28,13 @@
             <nav>
                 <!-- <h1 class="logo">Nitesh Kumar</h1> -->
                 <a href="#hero" class="logo">Nitesh Kumar</a>
-                <ul class="nav-links">
+                <ul id="sidemenu">
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark"></i>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
         </div>
     </header>
@@ -144,6 +144,19 @@
             </ul>
         </div>
     </footer>
+
+    <script>
+            var sidemeu = document.getElementById("sidemenu");
+
+                function openmenu() {
+                    sidemeu.style.right = "0";
+                }
+
+                function closemenu() {
+                    sidemeu.style.right = "-245px";
+                }
+    </script>
+
 </body>
 
 </html>
