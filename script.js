@@ -53,8 +53,3 @@ document.getElementById('contactForm').addEventListener('submit', async function
 
 
 
-
-
-// ------------------------------Side Menu---------------------------------
-
-
